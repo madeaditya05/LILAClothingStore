@@ -21,9 +21,9 @@
                 </a>
                 <div class="product-content">
                   <h5 class="element-title text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
+                    <a href="index.html">Culottes</a>
                   </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
+                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>IDR 150.000</span></a>
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@
             <div class="product-item image-zoom-effect link-effect">
               <div class="image-holder position-relative">
                 <a href="index.html">
-                  <img src="images/baju1.jpg" alt="categories" class="product-image img-fluid">
+                  <img src="images/celana4.jpg" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="index.html" class="btn-icon btn-wishlist">
                   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -41,9 +41,9 @@
                 </a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
+                    <a href="index.html">A-Line Maxi Skirt</a>
                   </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
+                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>IDR 250.000</span></a>
                 </div>
               </div>
             </div>
@@ -61,9 +61,9 @@
                 </a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
+                    <a href="index.html">Culottes</a>
                   </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
+                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>IDR 150.000</span></a>
                 </div>
               </div>
             </div>
@@ -81,9 +81,9 @@
                 </a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Crop sweater</a>
+                    <a href="index.html">Culottes</a>
                   </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
+                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>IDR 150.000</span></a>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="product-item image-zoom-effect link-effect">
               <div class="image-holder position-relative">
                 <a href="index.html">
-                  <img src="images/baju2.jpg" alt="categories" class="product-image img-fluid">
+                  <img src="images/celana5.jpg" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="index.html" class="btn-icon btn-wishlist">
                   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -101,9 +101,9 @@
                 </a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Crop sweater</a>
+                    <a href="index.html">A-Line Maxi Skirt</a>
                   </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
+                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>IDR 250.000</span></a>
                 </div>
               </div>
             </div>

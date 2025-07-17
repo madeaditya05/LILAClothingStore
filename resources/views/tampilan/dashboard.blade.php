@@ -859,6 +859,44 @@
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
   crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  // Menunggu seluruh halaman dimuat sebelum menjalankan script
+document.addEventListener("DOMContentLoaded", function() {
+
+  // 1. Ambil semua tombol wishlist yang ada di halaman
+  const wishlistButtons = document.querySelectorAll('.btn-wishlist');
+  
+  // 2. Ambil elemen span untuk counter wishlist di header
+  const wishlistCounter = document.getElementById('wishlist-counter');
+
+  // 3. Fungsi untuk memperbarui angka pada counter
+  function updateWishlistCount() {
+    // Hitung berapa banyak tombol yang memiliki kelas 'active'
+    const activeCount = document.querySelectorAll('.btn-wishlist.active').length;
+    // Tampilkan angka tersebut di dalam counter
+    wishlistCounter.textContent = `(${activeCount})`;
+  }
+
+  // 4. Tambahkan event listener untuk setiap tombol wishlist
+  wishlistButtons.forEach(button => {
+    button.addEventListener('click', function(event) {
+      // Mencegah link berpindah halaman saat diklik
+      event.preventDefault(); 
+      
+      // Toggle kelas 'active' pada tombol yang diklik
+      // Jika belum ada, kelas akan ditambahkan. Jika sudah ada, akan dihapus.
+      this.classList.toggle('active');
+      
+      // Perbarui angka di header setiap kali tombol diklik
+      updateWishlistCount();
+    });
+  });
+
+  // 5. Panggil fungsi sekali saat halaman dimuat, untuk memastikan angka awal sudah benar
+  // (Berguna jika nanti Anda memuat status wishlist dari server)
+  updateWishlistCount();
+
+});</script>
 </body>
 
 </html>
