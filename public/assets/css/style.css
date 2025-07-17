@@ -1540,3 +1540,14 @@ a.btn-link.text-light:after {
   background-size: cover;
   transition: transform .3s ease-out;
 }
+
+/* Styling untuk tombol wishlist */
+.btn-wishlist {
+  transition: color 0.3s ease; /* Animasi perubahan warna yang halus */
+  color: #000; /* Warna awal ikon hati */
+}
+
+/* Saat tombol wishlist aktif (diklik) */
+.btn-wishlist.active {
+  color: red; /* Warna ikon hati menjadi merah */
+}

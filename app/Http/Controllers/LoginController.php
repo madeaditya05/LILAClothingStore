@@ -11,7 +11,7 @@ class LoginController extends Controller
     // Method untuk menampilkan halaman login
     public function showLoginForm()
     {
-        return view('login');
+        return view('tampilan.login');
     }
 
     // Proses validasi data login
