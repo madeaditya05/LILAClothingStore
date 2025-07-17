@@ -5,11 +5,10 @@
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4">
               <a href="index.html">
-                <img src="images/main-logo.png" alt="logo">
+                <img src="{{ asset('images/logoasli.png') }}" alt="Logo" class="img-fluid" style="max-height: 45px;">
               </a>
             </div>
-            <p>Gravida massa volutpat aenean odio. Amet, turpis erat nullam fringilla elementum diam in. Nisi, purus
-              vitae, ultrices nunc. Sit ac sit suscipit hendrerit.</p>
+            <p>Lila is here to celebrate your personal style. We carefully curate every collection, blending modern design with timeless quality for women everywhere. Connect with us and become part of our story.</p>
             <div class="social-links">
               <ul class="list-unstyled d-flex flex-wrap gap-3">
                 <li>
@@ -127,9 +126,7 @@
             </div>
           </div>
           <div class="col-md-6 text-end">
-            <p>© Copyright 2022 Kaira. All rights reserved. Design by <a href="https://templatesjungle.com"
-                target="_blank">TemplatesJungle</a> Distribution By <a href="https://themewagon.com"
-              target="blank">ThemeWagon</a></p>
+            <p>© Copyright 2025 Githamaki. All rights reserved. Design by Githamaki</p>
           </div>
         </div>
       </div>
