@@ -2,135 +2,63 @@
 
   <section id="billboard" class="bg-light py-5">
     <div class="container">
-      <div class="row justify-content-center">
-        <h1 class="section-title text-center mt-4" data-aos="fade-up">New Collections</h1>
-        <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
-          <p>Every piece in this collection is thoughtfully designed to elevate your style. Discover a blend of modern design and quality materials that will become the new staples in your wardrobe.</p>
+        <div class="row justify-content-center">
+            <h1 class="section-title text-center mt-4" data-aos="fade-up">New Collections</h1>
+            <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
+                <p>Every piece in this collection is thoughtfully designed to elevate your style. Discover a blend of modern design and quality materials that will become the new staples in your wardrobe.</p>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="swiper main-swiper py-4" data-aos="fade-up" data-aos-delay="600">
-          <div class="swiper-wrapper d-flex border-animation-left">
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="images/banner-image-6.jpg" alt="product" class="img-fluid">
-                  </a>
+        
+        <div class="row position-relative">
+            <div class="swiper main-swiper py-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="swiper-wrapper d-flex border-animation-left">
+                    
+                    <div class="swiper-slide">
+                        <div class="banner-item image-zoom-effect">
+                            <div class="image-holder"><a href="#"><img src="images/banner-image-6.jpg" alt="product" class="img-fluid"></a></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">ESSENTIAL JACKETS</a></h5><p>A timeless layer of style. Discover our selected jackets, designed for comfort and a modern touch to any look.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-item image-zoom-effect">
+                           <div class="image-holder"><a href="#"><img src="images/banner-image-1.jpg" alt="product" class="img-fluid"></a></div>
+                           <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">THE CROPPED SWEATER</a></h5><p>Where comfort meets style. This uniquely cut sweater is the perfect choice for a look that's relaxed yet polished and modern.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-item image-zoom-effect">
+                            <div class="image-holder"><a href="#"><img src="images/banner-image-2.jpg" alt="product" class="img-fluid"></a></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">MODERN PLAID BLAZER</a></h5><p>From the boardroom to the weekend. This modern plaid blazer is a versatile staple your wardrobe needs.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-item image-zoom-effect">
+                            <div class="image-holder"><a href="#"><img src="images/banner-image-3.jpg" alt="product" class="img-fluid"></a></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">THE ARTIST'S LINEN DRESS</a></h5><p>Express your free spirit. This relaxed-fit linen dress is designed to move with you, offering effortless comfort and style all day long.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-item image-zoom-effect">
+                            <div class="image-holder"><a href="#"><img src="images/banner-image-4.jpg" alt="product" class="img-fluid"></a></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">RELAXED FIT LEATHER JACKET</a></h5><p>Make a statement with this relaxed-fit leather jacket. It brings a classic, bold edge to complete your urban style.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-item image-zoom-effect">
+                            <div class="image-holder"><a href="#"><img src="images/banner-image-5.jpg" alt="product" class="img-fluid"></a></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">THE ELEGANT CAPE</a></h5><p>A finishing touch that radiates sophistication. Designed with a modern silhouette and minimalist details to elevate any outfit.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="index.html" class="item-anchor">ESSENTIAL JACKETS</a>
-                  </h5>
-                  <p>A timeless layer of style. Discover our selected jackets, designed for comfort and a modern touch to any look.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="images/banner-image-1.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="index.html" class="item-anchor">THE CROPPED SWEATER</a>
-                  </h5>
-                  <p>Where comfort meets style. This uniquely cut sweater is the perfect choice for a look that's relaxed yet polished and modern.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="images/banner-image-2.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="index.html" class="item-anchor">MODERN PLAID BLAZER</a>
-                  </h5>
-                  <p>From the boardroom to the weekend. This modern plaid blazer is a versatile staple your wardrobe needs.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="images/banner-image-3.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="index.html" class="item-anchor">THE ARTIST'S LINEN DRESS</a>
-                  </h5>
-                  <p>Express your free spirit. This relaxed-fit linen dress is designed to move with you, offering effortless comfort and style all day long.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="images/banner-image-4.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="index.html" class="item-anchor">RELAXED FIT LEATHER JACKET</a>
-                  </h5>
-                  <p>Make a statement with this relaxed-fit leather jacket. It brings a classic, bold edge to complete your urban style.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="images/banner-image-5.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="index.html" class="item-anchor">THE ELEGANT CAPE</a>
-                  </h5>
-                  <p>A finishing touch that radiates sophistication. Designed with a modern silhouette and minimalist details to elevate any outfit.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev icon-arrow icon-arrow-left"></div>
+            <div class="swiper-button-next icon-arrow icon-arrow-right"></div>
         </div>
-        <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-            <use xlink:href="#arrow-left"></use>
-          </svg></div>
-        <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-            <use xlink:href="#arrow-right"></use>
-          </svg></div>
-      </div>
     </div>
-  </section>
+</section>
 
   <section class="features py-5">
     <div class="container">
@@ -230,7 +158,6 @@
     <div class="container">
         <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-4">
             <h4 class="text-uppercase m-0">Our New Arrivals</h4>
-            
             <div class="d-flex align-items-center">
                 <a href="#" class="btn-link me-4">View All Products</a>
                 <div class="swiper-nav-buttons d-flex">
@@ -243,10 +170,9 @@
                 </div>
             </div>
         </div>
-        <div class="swiper product-swiper open-up" data-aos="zoom-out">
+        <div class="swiper product-swiper product-swiper-new open-up" data-aos="zoom-out">
             <div class="swiper-wrapper d-flex">
-                {{-- MULAI LOOP DI SINI --}}
-                @foreach ($products as $product)
+                @foreach ($newArrivals as $product)
                 <div class="swiper-slide">
                     <div class="product-item image-zoom-effect link-effect">
                         <div class="image-holder position-relative">
@@ -272,12 +198,10 @@
                     </div>
                 </div>
                 @endforeach
-                {{-- AKHIRI LOOP DI SINI --}}
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        
-        </div>
+    </div>
 </section>
 
   <section class="collection bg-light position-relative py-5">
@@ -304,143 +228,53 @@
 
   <section id="best-sellers" class="best-sellers product-carousel py-5 position-relative overflow-hidden">
     <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">Best Selling Items</h4>
-        <a href="index.html" class="btn-link">View All Products</a>
-      </div>
-      <div class="swiper product-swiper open-up" data-aos="zoom-out">
-        <div class="swiper-wrapper d-flex">
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/baju3.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-4">
+            <h4 class="text-uppercase m-0">Best Sellers</h4>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn-link me-4">View All Products</a>
+                <div class="swiper-nav-buttons d-flex">
+                    <div class="swiper-nav-button best-seller-prev me-2">
+                        <svg width="24" height="24"><use xlink:href="#arrow-left"></use></svg>
+                    </div>
+                    <div class="swiper-nav-button best-seller-next">
+                        <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/celana4.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/celana5.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-6.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Handmade crop sweater</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-9.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-10.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-left"></use>
-        </svg></div>
-      <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-right"></use>
-        </svg></div>
+        <div class="swiper product-swiper product-swiper-best open-up" data-aos="zoom-out">
+            <div class="swiper-wrapper d-flex">
+                @foreach ($bestSellers as $product)
+                <div class="swiper-slide">
+                    <div class="product-item image-zoom-effect link-effect">
+                        <div class="image-holder position-relative">
+                            <a href="#">
+                                <img src="{{ asset($product->image) }}" alt="product-item" class="product-image img-fluid">
+                            </a>
+                            <a href="#" 
+                               class="btn-icon btn-wishlist {{ $product->isWishlisted() ? 'active' : '' }}" 
+                               data-product-id="{{ $product->id }}">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#heart"></use>
+                                </svg>
+                            </a>
+                            <div class="product-content">
+                                <h5 class="element-title text-uppercase fs-5 mt-3">
+                                    <a href="#">{{ $product->name }}</a>
+                                </h5>
+                                <a href="#" class="text-decoration-none" data-after="Add to cart">
+                                    <span>Rp {{ number_format($product->price, 0, ',', '.') }}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
-  </section>
+</section>
 
   <section class="video py-5 overflow-hidden">
   <div class="container-fluid">
@@ -781,7 +615,7 @@
 
   @include('layoutsbootstrap.footer')
 
-  {{-- JS Lokal (pastikan semua file ini ada di public/assets/js/) --}}
+{{-- JS Lokal (pastikan semua file ini ada di public/assets/js/) --}}
 <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/plugins.js') }}"></script>
 <script src="{{ asset('assets/js/SmoothScroll.js') }}"></script>
@@ -790,71 +624,104 @@
 
 {{-- JS dari CDN --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-  crossorigin="anonymous"></script>
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+{{-- SCRIPT UTAMA ANDA --}}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 
-    // --- KODE LAMA ANDA UNTUK WISHLIST (TETAP ADA) ---
-    const wishlistButtons = document.querySelectorAll('.btn-wishlist');
+    // ==========================================================
+    // BAGIAN 1: LOGIKA UNTUK TOMBOL WISHLIST (DENGAN PERBAIKAN)
+    // ==========================================================
+    const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
     const wishlistCounter = document.getElementById('wishlist-counter');
 
-    function updateWishlistCount() {
-        const activeCount = document.querySelectorAll('.btn-wishlist.active').length;
-        if (wishlistCounter) {
-            wishlistCounter.textContent = `(${activeCount})`;
-        }
-    }
-
-    wishlistButtons.forEach(button => {
+    document.querySelectorAll('.btn-wishlist').forEach(button => {
         button.addEventListener('click', function(event) {
-            event.preventDefault(); 
-            this.classList.toggle('active');
-            updateWishlistCount();
+            // Mencegah link berpindah halaman
+            event.preventDefault();
+            // MENCEGAH EFEK ZOOM SAAT KLIK HATI
+            event.stopPropagation(); 
+
+            @guest
+                window.location.href = "{{ route('login') }}";
+                return;
+            @endguest
+
+            let productId = this.dataset.productId;
+            let url = "{{ route('wishlist.add') }}";
+
+            fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'X-CSRF-TOKEN': csrfToken },
+                body: JSON.stringify({ product_id: productId })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'added') {
+                    this.classList.add('active');
+                } else {
+                    this.classList.remove('active');
+                }
+                if (wishlistCounter) {
+                    wishlistCounter.textContent = `(${data.count})`;
+                }
+            })
+            .catch(error => console.error('Error:', error));
         });
     });
 
-    updateWishlistCount();
 
-
-    // --- KODE BARU UNTUK INISIALISASI SLIDER ---
-    // Pastikan library Swiper sudah dimuat sebelum kode ini berjalan
+    // ==========================================================
+    // BAGIAN 2: INISIALISASI UNTUK SEMUA SLIDER
+    // ==========================================================
     if (typeof Swiper !== 'undefined') {
-        const productSwiper = new Swiper(".product-swiper", {
-            slidesPerView: 4, // Tampilkan 4 produk sekaligus
-            spaceBetween: 20, // Jarak antar produk
-            loop: false, // Jangan loop agar tombol disable berfungsi
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            // Menghubungkan slider dengan tombol navigasi baru kita
+
+        // Inisialisasi slider "New Arrivals"
+        const newArrivalSwiper = new Swiper(".product-swiper-new", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            loop: false,
             navigation: {
                 nextEl: ".new-arrival-next",
                 prevEl: ".new-arrival-prev",
             },
-            // Pengaturan responsif untuk layar yang lebih kecil
+            pagination: {
+                el: ".swiper-pagination-new",
+                clickable: true,
+            },
             breakpoints: {
-                0: {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                992: {
-                    slidesPerView: 3,
-                    spaceBetween: 20,
-                },
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                }
+                0: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+                1200: { slidesPerView: 4 },
+            }
+        });
+
+        // Inisialisasi slider "Best Sellers"
+        const bestSellerSwiper = new Swiper(".product-swiper-best", {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            loop: false,
+            navigation: {
+                nextEl: ".best-seller-next",
+                prevEl: ".best-seller-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination-best",
+                clickable: true,
+            },
+            breakpoints: {
+                0: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+                1200: { slidesPerView: 4 },
             }
         });
     }
+
 });
 </script>
 </body>
