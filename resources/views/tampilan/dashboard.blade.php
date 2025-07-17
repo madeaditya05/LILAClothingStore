@@ -228,123 +228,57 @@
 
   <section id="new-arrival" class="new-arrival product-carousel py-5 position-relative overflow-hidden">
     <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">Our New Arrivals</h4>
-        <a href="index.html" class="btn-link">View All Products</a>
-      </div>
-      <div class="swiper product-swiper open-up" data-aos="zoom-out">
-        <div class="swiper-wrapper d-flex">
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/celana1.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="element-title text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-4">
+            <h4 class="text-uppercase m-0">Our New Arrivals</h4>
+            
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn-link me-4">View All Products</a>
+                <div class="swiper-nav-buttons d-flex">
+                    <div class="swiper-nav-button new-arrival-prev me-2">
+                        <svg width="24" height="24"><use xlink:href="#arrow-left"></use></svg>
+                    </div>
+                    <div class="swiper-nav-button new-arrival-next">
+                        <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/baju1.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/celana2.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/celana3.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Crop sweater</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder position-relative">
-                <a href="index.html">
-                  <img src="images/baju2.jpg" alt="categories" class="product-image img-fluid">
-                </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Crop sweater</a>
-                  </h5>
-                  <a href="#" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-left"></use>
-        </svg></div>
-      <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-right"></use>
-        </svg></div>
-    </div>
-  </section>
+        <div class="swiper product-swiper open-up" data-aos="zoom-out">
+            <div class="swiper-wrapper d-flex">
+                {{-- MULAI LOOP DI SINI --}}
+                @foreach ($products as $product)
+                <div class="swiper-slide">
+                    <div class="product-item image-zoom-effect link-effect">
+                        <div class="image-holder position-relative">
+                            <a href="#">
+                                <img src="{{ asset($product->image) }}" alt="product-item" class="product-image img-fluid">
+                            </a>
+                            <a href="#" 
+                               class="btn-icon btn-wishlist {{ $product->isWishlisted() ? 'active' : '' }}" 
+                               data-product-id="{{ $product->id }}">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#heart"></use>
+                                </svg>
+                            </a>
+                            <div class="product-content">
+                                <h5 class="element-title text-uppercase fs-5 mt-3">
+                                    <a href="#">{{ $product->name }}</a>
+                                </h5>
+                                <a href="#" class="text-decoration-none" data-after="Add to cart">
+                                    <span>Rp {{ number_format($product->price, 0, ',', '.') }}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+                {{-- AKHIRI LOOP DI SINI --}}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        </div>
+</section>
 
   <section class="collection bg-light position-relative py-5">
     <div class="container">
@@ -382,11 +316,11 @@
                 <a href="index.html">
                   <img src="images/baju3.jpg" alt="categories" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Dark florish onepiece</a>
@@ -402,11 +336,11 @@
                 <a href="index.html">
                   <img src="images/celana4.jpg" alt="product" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Baggy Shirt</a>
@@ -422,11 +356,11 @@
                 <a href="index.html">
                   <img src="images/celana5.jpg" alt="categories" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Cotton off-white shirt</a>
@@ -442,11 +376,11 @@
                 <a href="index.html">
                   <img src="images/product-item-6.jpg" alt="categories" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Handmade crop sweater</a>
@@ -462,11 +396,11 @@
                 <a href="index.html">
                   <img src="images/product-item-9.jpg" alt="categories" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Dark florish onepiece</a>
@@ -482,11 +416,11 @@
                 <a href="index.html">
                   <img src="images/product-item-10.jpg" alt="categories" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Cotton off-white shirt</a>
@@ -585,11 +519,11 @@
                 <a href="index.html">
                   <img src="images/product-item-5.jpg" alt="product" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Dark florish onepiece</a>
@@ -605,11 +539,11 @@
                 <a href="index.html">
                   <img src="images/product-item-6.jpg" alt="product" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Baggy Shirt</a>
@@ -625,11 +559,11 @@
                 <a href="index.html">
                   <img src="images/product-item-7.jpg" alt="product" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Cotton off-white shirt</a>
@@ -645,11 +579,11 @@
                 <a href="index.html">
                   <img src="images/product-item-8.jpg" alt="product" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Handmade crop sweater</a>
@@ -665,11 +599,11 @@
                 <a href="index.html">
                   <img src="images/product-item-1.jpg" alt="product" class="product-image img-fluid">
                 </a>
-                <a href="index.html" class="btn-icon btn-wishlist">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <use xlink:href="#heart"></use>
-                  </svg>
-                </a>
+                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#heart"></use>
+    </svg>
+</a>
                 <div class="product-content">
                   <h5 class="text-uppercase fs-5 mt-3">
                     <a href="index.html">Handmade crop sweater</a>
@@ -860,43 +794,69 @@
   crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script>
-  // Menunggu seluruh halaman dimuat sebelum menjalankan script
 document.addEventListener("DOMContentLoaded", function() {
 
-  // 1. Ambil semua tombol wishlist yang ada di halaman
-  const wishlistButtons = document.querySelectorAll('.btn-wishlist');
-  
-  // 2. Ambil elemen span untuk counter wishlist di header
-  const wishlistCounter = document.getElementById('wishlist-counter');
+    // --- KODE LAMA ANDA UNTUK WISHLIST (TETAP ADA) ---
+    const wishlistButtons = document.querySelectorAll('.btn-wishlist');
+    const wishlistCounter = document.getElementById('wishlist-counter');
 
-  // 3. Fungsi untuk memperbarui angka pada counter
-  function updateWishlistCount() {
-    // Hitung berapa banyak tombol yang memiliki kelas 'active'
-    const activeCount = document.querySelectorAll('.btn-wishlist.active').length;
-    // Tampilkan angka tersebut di dalam counter
-    wishlistCounter.textContent = `(${activeCount})`;
-  }
+    function updateWishlistCount() {
+        const activeCount = document.querySelectorAll('.btn-wishlist.active').length;
+        if (wishlistCounter) {
+            wishlistCounter.textContent = `(${activeCount})`;
+        }
+    }
 
-  // 4. Tambahkan event listener untuk setiap tombol wishlist
-  wishlistButtons.forEach(button => {
-    button.addEventListener('click', function(event) {
-      // Mencegah link berpindah halaman saat diklik
-      event.preventDefault(); 
-      
-      // Toggle kelas 'active' pada tombol yang diklik
-      // Jika belum ada, kelas akan ditambahkan. Jika sudah ada, akan dihapus.
-      this.classList.toggle('active');
-      
-      // Perbarui angka di header setiap kali tombol diklik
-      updateWishlistCount();
+    wishlistButtons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            this.classList.toggle('active');
+            updateWishlistCount();
+        });
     });
-  });
 
-  // 5. Panggil fungsi sekali saat halaman dimuat, untuk memastikan angka awal sudah benar
-  // (Berguna jika nanti Anda memuat status wishlist dari server)
-  updateWishlistCount();
+    updateWishlistCount();
 
-});</script>
+
+    // --- KODE BARU UNTUK INISIALISASI SLIDER ---
+    // Pastikan library Swiper sudah dimuat sebelum kode ini berjalan
+    if (typeof Swiper !== 'undefined') {
+        const productSwiper = new Swiper(".product-swiper", {
+            slidesPerView: 4, // Tampilkan 4 produk sekaligus
+            spaceBetween: 20, // Jarak antar produk
+            loop: false, // Jangan loop agar tombol disable berfungsi
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Menghubungkan slider dengan tombol navigasi baru kita
+            navigation: {
+                nextEl: ".new-arrival-next",
+                prevEl: ".new-arrival-prev",
+            },
+            // Pengaturan responsif untuk layar yang lebih kecil
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                }
+            }
+        });
+    }
+});
+</script>
 </body>
 
 </html>

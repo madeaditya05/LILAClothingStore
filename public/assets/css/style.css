@@ -1551,3 +1551,34 @@ a.btn-link.text-light:after {
 .btn-wishlist.active {
   color: red; /* Warna ikon hati menjadi merah */
 }
+
+/* ============================================= */
+/* == STYLE BARU UNTUK NAVIGASI SLIDER == */
+/* ============================================= */
+
+.swiper-nav-button {
+  width: 42px;
+  height: 42px;
+  background-color: var(--bs-light);
+  border: 1px solid #e0e0e0;
+  border-radius: 50%; /* Membuatnya bulat sempurna */
+  color: var(--bs-black); /* Warna ikon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.swiper-nav-button:hover {
+  background-color: var(--bs-black); /* Warna hitam saat hover */
+  color: var(--bs-light); /* Warna ikon menjadi putih */
+  border-color: var(--bs-black);
+}
+
+
+
+.icon-arrow.icon-arrow-left,
+.icon-arrow.icon-arrow-right {
+    display: none !important;
+}

@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\WishlistController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('tampilan.login');
@@ -16,7 +18,7 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 // === ROUTE PROTECTED (HANYA BISA DIAKSES SETELAH LOGIN) ===
 Route::middleware(['auth'])->group(function () {
 
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/dashboard', [ProductController::class, 'index'])->name('dashboard');
 
 
 Route::get('/jacket', function () {
@@ -35,4 +37,5 @@ Route::get('/profile', function () {
     return view('tampilan.profile');
 })->name('profile'); // Tambahkan ini
 
+Route::post('/wishlist/add', [WishlistController::class, 'add'])->name('wishlist.add');
 });
