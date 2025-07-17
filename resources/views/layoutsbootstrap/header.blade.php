@@ -415,7 +415,8 @@
           </li>
           <li class="d-none d-lg-block">
     <a href="wishlist.html" class="text-uppercase mx-3">Wishlist 
-      <span class="wishlist-count" id="wishlist-counter">(0)</span>
+      {{-- Tampilkan count dari controller saat halaman dimuat --}}
+<span class="wishlist-count" id="wishlist-counter">({{ $wishlistCount }})</span>
     </a>
 </li>
           <li class="d-none d-lg-block">

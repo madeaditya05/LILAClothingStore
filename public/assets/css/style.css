@@ -1582,3 +1582,21 @@ a.btn-link.text-light:after {
 .icon-arrow.icon-arrow-right {
     display: none !important;
 }
+
+/* Menurunkan posisi pagination dots pada slider */
+.swiper-pagination {
+    /* Atur jarak dari slider di atasnya. Ubah angkanya sesuai selera. */
+    margin-top: 30px;
+    
+    /* Pastikan posisinya tidak absolut agar margin berfungsi */
+    position: relative; 
+}
+
+/* Style untuk tombol saat non-aktif (di slide pertama atau terakhir) */
+.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important; /* Mencegah kursor pointer */
+  background-color: var(--bs-light) !important;
+  color: #8f8f8f !important;
+  border-color: #e0e0e0 !important;
+}
