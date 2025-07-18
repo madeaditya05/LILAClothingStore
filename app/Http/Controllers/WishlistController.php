@@ -8,6 +8,24 @@ use App\Models\Wishlist;
 
 class WishlistController extends Controller
 {
+    public function index()
+    {
+        // 1. Ambil ID pengguna yang sedang login
+        $userId = Auth::id();
+
+        // 2. Ambil semua item wishlist milik pengguna tersebut
+        //    'with('product')' sangat penting untuk mengambil data produk terkait
+        $wishlistItems = Wishlist::where('user_id', $userId)->with('product')->get();
+
+        // 3. Kirim data ke view
+        return view('tampilan.wishlist', [
+            'wishlistItems' => $wishlistItems,
+        ]);
+    }
+
+    /**
+     * Menambah atau menghapus item dari wishlist (untuk AJAX).
+     */
     public function add(Request $request)
     {
         $request->validate(['product_id' => 'required|exists:products,id']);

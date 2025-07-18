@@ -67,7 +67,7 @@
   <div class="login-container">
     <div class="login-box">
       <img src="images/logoasli.png" alt="Logo" class="login-logo">
-      <h4 class="mb-4">Login</h4>
+      
 
       <!-- Tambahan alert -->
                 @if ($errors->any())
@@ -91,7 +91,7 @@
                     <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                   </div>
                  
-                  <button type="submit" class="btn w-100 py-8 fs-4 mb-4 rounded-2" style="color: rgb(255, 196, 63); background-color: rgb(95, 58, 31);">Login</button>
+                  <button type="submit" class="btn w-100 py-8 fs-4 mb-4 rounded-2" style="color: #b1568a; background-color: #FFF0F5;">Login</button>
                   <div class="d-flex align-items-center justify-content-center">
                   </div>
                 </form>

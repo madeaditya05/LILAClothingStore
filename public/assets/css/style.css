@@ -25,7 +25,7 @@ CSS STRUCTURE:
 body {
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
-  --heading-color: #111;
+  --heading-color: #b1568a;
   --heading-line-height: 1.24;
 
   --swiper-theme-color: #8C907E;
@@ -41,7 +41,7 @@ body {
   --bs-primary: #8C907E;
   --bs-secondary: #6c757d;
   --bs-black: #111;
-  --bs-light: #F1F1F0;
+  --bs-light: #FFDFE6;
   --bs-dark: #212529;
   --bs-gray: #9aa1a7;
   --bs-gray-dark: #51565b;
@@ -60,6 +60,7 @@ body {
 }
 
 body {
+  background-color: #FFDFE6;
   letter-spacing: 0.03rem;
 }
 
@@ -616,7 +617,7 @@ a {
 /** Search Popup
 --------------------------------------------------------------*/
 .search-popup {
-  background-color: #fff;
+  background-color: #FFF0F5;
   position: fixed;
   left: 0;
   top: 0;
@@ -1599,4 +1600,84 @@ a.btn-link.text-light:after {
   background-color: var(--bs-light) !important;
   color: #8f8f8f !important;
   border-color: #e0e0e0 !important;
+}
+
+/* Atur posisi absolut untuk tombol navigasi */
+.swiper-button-prev.swiper-nav-button,
+.swiper-button-next.swiper-nav-button {
+    position: absolute;
+    top: 0%; /* Posisikan di tengah secara vertikal */
+    transform: translateY(-50%);
+    z-index: 10; /* Pastikan tombol di atas slider */
+}
+
+/* Posisikan tombol 'prev' di sebelah kiri, sedikit di luar kontainer */
+.swiper-button-prev.swiper-nav-button {
+    left: -21px;
+}
+
+/* Posisikan tombol 'next' di sebelah kanan, sedikit di luar kontainer */
+.swiper-button-next.swiper-nav-button {
+    right: -21px;
+}
+
+/* Sembunyikan panah di layar kecil agar tidak berantakan */
+@media (max-width: 1200px) {
+    .swiper-button-prev.swiper-nav-button,
+    .swiper-button-next.swiper-nav-button {
+        display: none;
+    }
+}
+
+/* ============================================= */
+/* == PAKSA PERUBAHAN WARNA UNTUK .bg-light == */
+/* ============================================= */
+.bg-light {
+    background-color: #FFF0F5 !important; 
+}
+
+footer {
+     /* Menambahkan warna latar pink muda */
+    background-color: #FFF0F5 !important; /* ⬅️ TAMBAHKAN BARIS INI */
+
+    /* Membuat garis hitam solid setebal 1px di atas footer */
+    border-top: 1px solid var(--bs-black);
+
+    /* (Opsional) Memberi jarak antara konten terakhir dengan garis */
+    margin-top: 80px;
+
+    /* (Opsional) Memberi jarak antara garis dengan isi konten footer */
+    padding-top: 50px;
+}
+/* ======================================================= */
+/* == PENYESUAIAN WARNA SLIDE-IN CART (KODE PERBAIKAN) == */
+/* ======================================================= */
+
+/* 1. Mengubah Warna Latar Belakang Panel Cart Utama */
+.offcanvas.offcanvas-end {
+    background-color: #FFF0F5; /* Warna Pink Sangat Muda */
+}
+
+/* 2. Menghilangkan Latar Putih pada Setiap Item Keranjang */
+.offcanvas .list-group-item {
+    background-color: transparent; /* Membuat latar item transparan */
+    border-color: rgba(194, 24, 91, 0.15); /* Memberi garis tipis warna pink */
+}
+
+/* 3. Mengubah Warna Tombol Checkout */
+.offcanvas .btn-primary {
+    background-color: #C2185B; /* Warna Pink Tua */
+    border-color: #C2185B;
+}
+
+/* 4. Mengubah Warna Tombol Saat Kursor Menyentuh */
+.offcanvas .btn-primary:hover {
+    background-color: #a3154c;
+    border-color: #a3154c;
+}
+
+/* 5. Mengubah Warna Badge Angka (HANYA DI DALAM CART) */
+.offcanvas .badge.bg-primary {
+    background-color: #C2185B !important; /* Warna Pink Tua */
+    color: white; /* Pastikan angka tetap putih dan terbaca */
 }

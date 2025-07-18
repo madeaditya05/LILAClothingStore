@@ -210,25 +210,25 @@
               <h6 class="my-0">Growers cider</h6>
               <small class="text-body-secondary">Brief description</small>
             </div>
-            <span class="text-body-secondary">$12</span>
+            <span class="text-body-secondary">Rp12</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
               <h6 class="my-0">Fresh grapes</h6>
               <small class="text-body-secondary">Brief description</small>
             </div>
-            <span class="text-body-secondary">$8</span>
+            <span class="text-body-secondary">Rp8</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
               <h6 class="my-0">Heinz tomato ketchup</h6>
               <small class="text-body-secondary">Brief description</small>
             </div>
-            <span class="text-body-secondary">$5</span>
+            <span class="text-body-secondary">Rp4</span>
           </li>
           <li class="list-group-item d-flex justify-content-between">
             <span>Total (USD)</span>
-            <strong>$20</strong>
+            <strong>Rp24</strong>
           </li>
         </ul>
 
@@ -373,7 +373,7 @@
                     <a href="index.html" class="dropdown-item item-anchor">Order Tracking </a>
                   </li>
                   <li>
-                    <a href="index.html" class="dropdown-item item-anchor">Wishlist </a>
+                    <a href="{{ route('wishlist') }}" class="dropdown-item item-anchor">Wishlist </a>
                   </li>
                 </ul>
               </li>
@@ -414,7 +414,7 @@
 
           </li>
           <li class="d-none d-lg-block">
-    <a href="wishlist.html" class="text-uppercase mx-3">Wishlist 
+    <a href="{{ route('wishlist') }}" class="text-uppercase mx-3">Wishlist 
       {{-- Tampilkan count dari controller saat halaman dimuat --}}
 <span class="wishlist-count" id="wishlist-counter">({{ $wishlistCount }})</span>
     </a>
