@@ -38,4 +38,8 @@ Route::get('/profile', function () {
 })->name('profile'); // Tambahkan ini
 
 Route::post('/wishlist/add', [WishlistController::class, 'add'])->name('wishlist.add');
+
+// Mengarahkan ke WishlistController, fungsi index
+Route::get('/wishlist', [WishlistController::class, 'index'])->name('wishlist');
+
 });

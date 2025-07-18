@@ -50,7 +50,7 @@ body {
 
 /* Kartu Header */
 .profile-header-card {
-  background: white;
+  background: #FFF0F5;
   padding: 30px;
   border-radius: var(--border-radius);
   margin-bottom: 2rem;
@@ -85,7 +85,7 @@ body {
 
 /* Kartu Statistik */
 .profile-stats-card {
-  background: white;
+  background: #FFF0F5;
   padding: 20px;
   border-radius: var(--border-radius);
   margin-bottom: 2rem;
@@ -104,7 +104,7 @@ body {
 
 /* Kartu Konten (Tab) */
 .profile-content-card {
-  background: white;
+  background: #FFF0F5;
   padding: 30px;
   border-radius: var(--border-radius);
 }

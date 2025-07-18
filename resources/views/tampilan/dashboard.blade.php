@@ -16,37 +16,37 @@
                     <div class="swiper-slide">
                         <div class="banner-item image-zoom-effect">
                             <div class="image-holder"><a href="#"><img src="images/banner-image-6.jpg" alt="product" class="img-fluid"></a></div>
-                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">ESSENTIAL JACKETS</a></h5><p>A timeless layer of style. Discover our selected jackets, designed for comfort and a modern touch to any look.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="#" class="item-anchor">ESSENTIAL JACKETS</a></h5><p>A timeless layer of style. Discover our selected jackets, designed for comfort and a modern touch to any look.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-item image-zoom-effect">
                            <div class="image-holder"><a href="#"><img src="images/banner-image-1.jpg" alt="product" class="img-fluid"></a></div>
-                           <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">THE CROPPED SWEATER</a></h5><p>Where comfort meets style. This uniquely cut sweater is the perfect choice for a look that's relaxed yet polished and modern.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                           <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="#" class="item-anchor">THE CROPPED SWEATER</a></h5><p>Where comfort meets style. This uniquely cut sweater is the perfect choice for a look that's relaxed yet polished and modern.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-item image-zoom-effect">
                             <div class="image-holder"><a href="#"><img src="images/banner-image-2.jpg" alt="product" class="img-fluid"></a></div>
-                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">MODERN PLAID BLAZER</a></h5><p>From the boardroom to the weekend. This modern plaid blazer is a versatile staple your wardrobe needs.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="#" class="item-anchor">MODERN PLAID BLAZER</a></h5><p>From the boardroom to the weekend. This modern plaid blazer is a versatile staple your wardrobe needs.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-item image-zoom-effect">
                             <div class="image-holder"><a href="#"><img src="images/banner-image-3.jpg" alt="product" class="img-fluid"></a></div>
-                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">THE ARTIST'S LINEN DRESS</a></h5><p>Express your free spirit. This relaxed-fit linen dress is designed to move with you, offering effortless comfort and style all day long.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="#" class="item-anchor">THE ARTIST'S LINEN DRESS</a></h5><p>Express your free spirit. This relaxed-fit linen dress is designed to move with you, offering effortless comfort and style all day long.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-item image-zoom-effect">
                             <div class="image-holder"><a href="#"><img src="images/banner-image-4.jpg" alt="product" class="img-fluid"></a></div>
-                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">RELAXED FIT LEATHER JACKET</a></h5><p>Make a statement with this relaxed-fit leather jacket. It brings a classic, bold edge to complete your urban style.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="#" class="item-anchor">RELAXED FIT LEATHER JACKET</a></h5><p>Make a statement with this relaxed-fit leather jacket. It brings a classic, bold edge to complete your urban style.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-item image-zoom-effect">
                             <div class="image-holder"><a href="#"><img src="images/banner-image-5.jpg" alt="product" class="img-fluid"></a></div>
-                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="index.html" class="item-anchor">THE ELEGANT CAPE</a></h5><p>A finishing touch that radiates sophistication. Designed with a modern silhouette and minimalist details to elevate any outfit.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
+                            <div class="banner-content py-4"><h5 class="element-title text-uppercase"><a href="#" class="item-anchor">THE ELEGANT CAPE</a></h5><p>A finishing touch that radiates sophistication. Designed with a modern silhouette and minimalist details to elevate any outfit.</p><div class="btn-left"><a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a></div></div>
                         </div>
                     </div>
 
@@ -54,8 +54,12 @@
                 <div class="swiper-pagination"></div>
             </div>
 
-            <div class="swiper-button-prev icon-arrow icon-arrow-left"></div>
-            <div class="swiper-button-next icon-arrow icon-arrow-right"></div>
+            <div class="swiper-button-prev swiper-nav-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </div>
+            <div class="swiper-button-next swiper-nav-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </div>
         </div>
     </div>
 </section>
@@ -339,125 +343,55 @@
     <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
   </section>
 
-  <section id="related-products" class="related-products product-carousel py-5 position-relative overflow-hidden">
+  <section id="you-may-like" class="you-may-like product-carousel py-5 position-relative overflow-hidden">
     <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-        <h4 class="text-uppercase">You May Also Like</h4>
-        <a href="index.html" class="btn-link">View All Products</a>
-      </div>
-      <div class="swiper product-swiper open-up" data-aos="zoom-out">
-        <div class="swiper-wrapper d-flex">
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-5.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Dark florish onepiece</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$95.00</span></a>
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-4">
+            <h4 class="text-uppercase m-0">You May Like</h4>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn-link me-4">View All Products</a>
+                <div class="swiper-nav-buttons d-flex">
+                    <div class="swiper-nav-button new-arrival-prev me-2">
+                        <svg width="24" height="24"><use xlink:href="#arrow-left"></use></svg>
+                    </div>
+                    <div class="swiper-nav-button new-arrival-next">
+                        <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-6.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Baggy Shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$55.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-7.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Cotton off-white shirt</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$65.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-8.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Handmade crop sweater</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$50.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product-item image-zoom-effect link-effect">
-              <div class="image-holder">
-                <a href="index.html">
-                  <img src="images/product-item-1.jpg" alt="product" class="product-image img-fluid">
-                </a>
-                <a href="#" class="btn-icon btn-wishlist" data-product-id="{{ $product->id }}">
-    <svg width="24" height="24" viewBox="0 0 24 24">
-        <use xlink:href="#heart"></use>
-    </svg>
-</a>
-                <div class="product-content">
-                  <h5 class="text-uppercase fs-5 mt-3">
-                    <a href="index.html">Handmade crop sweater</a>
-                  </h5>
-                  <a href="index.html" class="text-decoration-none" data-after="Add to cart"><span>$70.00</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-left"></use>
-        </svg></div>
-      <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-          <use xlink:href="#arrow-right"></use>
-        </svg></div>
+        <div class="swiper product-swiper product-swiper-new open-up" data-aos="zoom-out">
+            <div class="swiper-wrapper d-flex">
+                @foreach ($youMayLike as $product)
+                <div class="swiper-slide">
+                    <div class="product-item image-zoom-effect link-effect">
+                        <div class="image-holder position-relative">
+                            <a href="#">
+                                <img src="{{ asset($product->image) }}" alt="product-item" class="product-image img-fluid">
+                            </a>
+                            <a href="#" 
+                               class="btn-icon btn-wishlist {{ $product->isWishlisted() ? 'active' : '' }}" 
+                               data-product-id="{{ $product->id }}">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href="#heart"></use>
+                                </svg>
+                            </a>
+                            <div class="product-content">
+                                <h5 class="element-title text-uppercase fs-5 mt-3">
+                                    <a href="#">{{ $product->name }}</a>
+                                </h5>
+                                <a href="#" class="text-decoration-none" data-after="Add to cart">
+                                    <span>Rp {{ number_format($product->price, 0, ',', '.') }}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
-  </section>
+</section>
 
   <section class="blog py-5">
     <div class="container">
@@ -699,6 +633,39 @@ document.addEventListener("DOMContentLoaded", function() {
                 1200: { slidesPerView: 4 },
             }
         });
+
+        const mainSwiper = new Swiper(".main-swiper", {
+    slidesPerView: 1, // Tampilan awal untuk mobile
+    spaceBetween: 20,
+    loop: false, // Set 'true' jika ingin loop tak terbatas
+    
+    // Tentukan elemen navigasi
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    // Tentukan elemen pagination
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    
+    // Atur tampilan untuk layar yang lebih besar (breakpoints)
+    breakpoints: {
+        // ketika lebar layar >= 768px
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // ketika lebar layar >= 992px
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
+});
+
 
         // Inisialisasi slider "Best Sellers"
         const bestSellerSwiper = new Swiper(".product-swiper-best", {

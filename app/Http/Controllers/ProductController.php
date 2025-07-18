@@ -21,10 +21,13 @@ class ProductController extends Controller
         //    $bestSellers = Product::where('is_best_seller', true)->take(8)->get();
         $bestSellers = Product::orderBy('id', 'desc')->take(8)->get();
 
+        $youMayLike = Product::inRandomOrder()->take(8)->get();
+
         // 3. Kirim KEDUA variabel ke view dengan nama yang berbeda
         return view('tampilan.dashboard', [
             'newArrivals' => $newArrivals,
             'bestSellers' => $bestSellers,
+            'youMayLike'  => $youMayLike,
         ]);
     }
 }
